@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>My Contact Details</h1>
+    <p>Phone: <a href="tel:+16045185538">6045185538</a></p>
+    <p>Email: <a href="mailto:h.w.choi1017@gmail.com">h.w.choi1017@gmail.com</a></p>
+
+    <!--16. Form, label, input-->
+    <hr>
+    <h2>Or you can leave your message here! </h2>
+    <!-- 16-4 Go back to the main page through 'action'
+    <form action="index_Lesson2.html"></form>-->
+    <!-- 16-5 Send information to an email through 'mailto:'-->
+    <!-- 16-6 enctype attribute-->
+    <form action="mailto:h.w.choi1017@gamil.com" method="POST" enctype="text/plain">
+        <label for="name">Your name:</label>
+        <input type="text" name="name" id="">
+        <br>
+        <!-- 16-3 email, textarea, line break-->
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="">
+        <br>
+        <label for="message">Your message</label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <br>
+        <!-- 16-2 submit button, color, checkbox, password -->
+        <input type="submit" value="Submit">
+
+        <!--
+        <input type="color" name="Color" id=""><br>
+        <label for="">Do you want to sign up to the email list?</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Passwork</label>
+        <input type="password" name="" id="">
+        -->
+    </form>
+</body>
+
+</html>
